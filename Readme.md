@@ -20,15 +20,12 @@ Given a Player class - an instance of which can communicate with other Players.
 	
 #### **Client:**
  * Client side application extends to the BaseApi Abstract Class.
- * 
  * This application checks if there is available host, if yes, then establishes the connection.
  * Once it's connected to a server, it creates a player object and sends the first message.
- * 
  * Afterwards, it starts listening, if receives any inputs from the server.  
  
 #### **Server:**
  * Server side application extends to the BaseApi Abstract Class.
- * 
  * This application creates host for the messaging.
  * After creating the host, it starts to listen inputStream. 
  * Once client connected and sent first message, application continues messaging.
